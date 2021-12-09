@@ -1,0 +1,43 @@
+
+1) Explain REST
+
+REST : REpresentational State Transfer:
+- It is an architectural style for APIs. 
+- It provide standards between computer systems on the web, making it easier to communicate with each other
+- REST-compliant systems, called RESTful systems.
+- The implementation of the client and the server can be done independently without each knowing about the other.
+
+2) Explain the architectural style for the creation of a web API (client server communication, formatting language, number of servers, etc.)
+
+A Restful system consists of a:
+- client who requests for the resources.
+- server who has the resources.
+
+Architectural Constraints of RESTful API: There are six architectural constraints which makes any web service are listed below:
+- Uniform Interface
+- Stateless
+- Cacheable
+- Client-Server
+- Layered System
+- Code on Demand
+
+The only optional constraint of REST architecture is code on demand. If a service violates any other constraint, it cannot strictly be referred to as RESTful.
+
+
+3) What are the best practices when deploying an application in the cloud
+
+There are three types of cloud service models: IaaS, PaaS, SaaS:
+- Infrastructure as a Service (IaaS) : Iaas is one of the most known services available in cloud computing. You can manage a lot of what goes on when you deploy your web application, such as data, runtime, middleware, and O/S. This ability to let you handle the things most important to you and let the vendor handle the more tedious work is one reason to love IaaS, but that is not all.
+- Platform as a Service (PaaS) : PaaS is the most popular type of cloud computing model. Platform as a Service, as the name implies, provides cloud components to certain software while being used mainly for applications, essentially serving as a platform for development, testing, and deploying your web applications. This is usually the go-to choice for most developers as well. Some examples of this are Heroku, Microsoft Azure, Apache Stratus, and Engine Yard.
+- Software as a Service (SaaS) : SaaS is a cloud computing software that’s available through a third-party over the internet and can be accessed with just a browser. With SaaS, everything is provided for you except for the application data. Vendors provide application coding tools to modify their tools, but you are still working with the app they offer. For example, Salesforce, Dropbox, and ZenDesk all provide you with their software, which you can modify but for the most part, changes are out of your control.
+
+
+4) What are your best strength : infra ? DB ? web ?
+Give us detail about it
+
+During my experience as a web developer in a start up specializing in web solutions, I am more strong in web than infra and Db. In addition, I have developed a lot of web projects in different sectors with several web programming languages.
+
+
+5) Among all the projects you have worked on. Which architecture do you enjoy the most? explain why ?
+
+The most architecture that i enjoy is "Microservice". This architecture modulates the components in order to manage the functional bottlenecks. Thanks to this architecture, we can process additional components instead of deploying new iterations of an entire application. These applications are faster and easier to update. With microservices, we can update components of the application without affecting other parts.
